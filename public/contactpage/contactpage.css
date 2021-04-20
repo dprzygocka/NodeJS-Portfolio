@@ -1,0 +1,162 @@
+
+/* new Contact page  styling*/
+
+.form-button{
+    margin: auto;
+    margin-top: 5% !important;
+}
+p#phone:hover{
+    color: black !important;
+}
+p#mail:hover{
+    color: black !important;
+}
+
+.form-position{
+    position: relative;
+    top: 20%;
+}
+
+.form-field{
+    padding-top: 3% ;
+}
+
+.boldH6{
+    font-weight: bold !important;
+}
+
+.contactContent{
+    text-align: center;
+}
+
+.small-form{
+    display:none;
+}
+
+.text{
+    font-size: 3.5em;
+    white-space: nowrap;
+
+}
+
+
+.contactText{
+    margin: 20% 0% 10% 20%;
+}
+
+.contactIcons{
+    max-width: 15%;
+    max-height: 15%;
+    margin-top: 5% ;
+    padding-bottom: 2%;
+}
+
+@media only screen and (max-width: 1400px) {
+
+
+    .text { 
+        font-size: 3em; 
+        
+     }
+         
+}
+
+@media only screen and (max-width: 1120px) {
+
+
+    .text { 
+        font-size: 2.5em; 
+  
+     }
+
+         
+}
+@media only screen and (max-width: 1115px) {
+
+
+    .text { 
+        font-size: 2.5em; 
+  
+     }
+     .contactContent{
+        
+        margin-top: 20%;
+    }
+         
+}@media only screen and (max-width: 930px) {
+
+
+    .text { 
+        font-size: 2em; 
+  
+     }
+     .contactContent{
+        
+        font-size: 0.75em;
+    }
+
+    .form-position{
+        position: relative;
+        top: 30%;
+    }
+    
+         
+}
+
+@media only screen and (max-width: 768px) {
+
+    .contactText{
+        
+        margin: 15% 0% 10% 20%;
+        
+    }
+    .small-form{
+        display:inherit;
+    }
+    .text { 
+        font-size: 2.5em; 
+  
+     }
+
+
+    .contactIcons{
+        max-width: 10%;
+        max-height: 10%;
+        margin-top: 5%  !important;
+         
+    }
+     #main-content {
+         height: 80vh;
+     }
+
+     .form-position{
+         display: none;
+     }
+     .contactContent{
+        margin-top: 0%;
+        font-size: 1em;
+    }
+      
+         
+
+}
+@media only screen and (max-width: 725px) {
+
+    .contactIcons{
+        max-width: 10%;
+        max-height: 10%;
+  
+    }
+
+ }
+
+@media only screen and (max-width: 576px) {
+
+
+    .contactIcons{
+        max-width: 15%;
+        max-height: 15%;
+  
+    }
+
+}

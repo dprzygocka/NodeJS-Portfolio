@@ -1,0 +1,59 @@
+
+/* navigation */
+
+.navbar-dark .navbar-toggler{
+    border-color: rgb(255, 255, 255) !important
+}
+
+.nav-item{
+    writing-mode: vertical-rl;
+    padding-top: 20px;
+    
+}
+
+#nav-right {
+    float: right;
+  
+}
+#position {
+    transform: translate(-5%,50%);
+}
+
+
+
+a.nav-link{
+    color : white !important
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 0% !important;
+}
+
+
+a:hover {
+    color: black !important;
+    text-decoration: none;
+}
+
+
+/* layout nav*/
+
+
+.FLoatRightANdRightPadddingNoNE{
+    padding-right: 0% !important;
+    float: right;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+

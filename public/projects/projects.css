@@ -1,0 +1,131 @@
+
+.github-link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    width: 100%;
+    text-align:center;
+    padding: 2%;
+    z-index: 4;
+    color:black !important;
+
+}
+
+
+
+div.github-link a:hover{
+    text-decoration: none !important;
+}
+
+.projects-containers{
+    margin: 5% 1% 2% 5.25%;
+    padding:0% !important;
+}
+
+.project-screen{
+    max-height: 100%;
+    max-width: 100%;
+    position:relative;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    object-fit: cover;
+  
+
+}
+.small-size{
+    display: none;
+}
+
+.big-size{
+    display: block;
+}
+
+.myProjectText{
+    margin: 20% 0% 10% 20%;
+    
+}
+
+@media only screen and (min-width: 1200px) {
+
+    h1.project-name{
+        font-size: 3.5em;
+    }
+ 
+ }
+
+ @media only screen and (max-width: 1200px) {
+
+    h1.project-name{
+        font-size: 3em;
+    }
+ 
+ }
+ @media only screen and (max-width: 992px) {
+
+    h1.project-name{
+        font-size: 2.5em;
+    }
+ 
+ }
+
+@media only screen and (max-width: 768px) {
+
+    #small-carousel{
+        display:none;
+    }
+
+    .small-size{
+        display: inherit;
+    }
+
+    .big-size{
+        display: none;
+    }
+
+
+
+    h1.project-name{
+        font-size: 2em;
+    }
+    
+    .myProjectText{
+        margin: 15% 5% 10% 15%;
+        
+    }
+ 
+ }
+ 
+
+
+ /* carousel*/
+ .carousel-control-prev{
+     justify-content: flex-start !important;
+ }
+
+ .carousel-control-next{
+    justify-content: flex-end !important;
+ }
+
+/* pro*/
+.project-name{
+ 
+    overflow: visible;
+    z-index: 4;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.image-carousel{
+    top:25%;
+}
+
+#NordicMotorhome-text{
+    display: none;
+    height: 50vh;
+}
+
+#nodeJS-course-text{
+    height: 50vh;
+}

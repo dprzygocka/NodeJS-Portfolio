@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "A portfolio project using node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "cross-env PORT=3000 nodemon.cmd app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dprzygocka/Kea_DAT_Node_2021_SPRING2.git"
+  },
+  "keywords": [
+    "Node",
+    "personal",
+    "portfolio"
+  ],
+  "author": "Dagmara Przygocka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dprzygocka/Kea_DAT_Node_2021_SPRING2/issues"
+  },
+  "homepage": "https://github.com/dprzygocka/Kea_DAT_Node_2021_SPRING2#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "encoding": "^0.1.13",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.5.0"
+  }
+}

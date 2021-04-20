@@ -1,0 +1,79 @@
+
+    <div id = "main-content" class="flex-container main-content-front" >
+        <div class = 'row'>
+            <div class ="col-10 col-md-11">
+                <div class="row">
+
+                    <div class = 'col-12 col-md-5 '> 
+                        
+                        <div class = "contactText">
+                            <h3 id ="color">DETAILS TO</h3>
+                            <h1 class = "text" >Get In Touch!</h1>
+                            <div class="contactContent">
+                                <img class="contactIcons" src="../global/phone.png">
+                                <h6 class="boldH6">Phone Me:</h6>
+                                <p id = "phone">+45 91 93 80 60</p>
+                            </div>
+        
+                            <div class="contactContent">
+                                <img class="contactIcons" src="../global/mail.png">
+                                <h6  class="boldH6">Mail Me:</h6>
+                                <p id = "mail">przygocka.dagmara@gmail.com</p>
+                            </div> 
+                        </div>
+
+                       
+
+                    </div>
+                        
+
+                    <div class = 'col-md-7'>
+
+                        <form class="form-position" method="POST" action="/api/contact">
+                            
+                            <div class="row form-field">
+                                <div class="col ">
+                                  <input type="text" class="form-control" name = "FirstName" placeholder="First name">
+                                </div>
+                                <div class="col ">
+                                  <input type="text" class="form-control" name = "LastName" placeholder="Last name">
+                                </div>
+                            </div>
+
+                            <div class="row form-field">
+                                <div class="col">
+                                  <input type="email" class="form-control" name = "Email" placeholder="Email">
+                                </div>
+                                <div class="col">
+                                  <input type="text" class="form-control" name = "Phone" placeholder="Phone">
+                                </div>
+                            </div>
+                            <div class="row form-field">
+                                <div class="col">
+                                  <input type="text" class="form-control" name = "Subject" placeholder="Subject">
+                                </div>
+                            </div>
+                            <div class="row form-field">
+                                <div class="col">
+                                  <textarea type="text" class="form-control" name = "Message" placeholder="Message" rows="5" cols="30"></textarea>
+                                </div>
+                            </div>
+                            
+                            <div class="center-elements">
+                                <button type="submit" class = "btn form-button">Contact Me</button>
+                            </div>
+                            
+                        </form>
+
+                    </div>
+
+                
+                    <div class = 'col-12 small-form'>
+                    
+                    </div>
+
+                
+                </div> 
+            </div>   
+
+

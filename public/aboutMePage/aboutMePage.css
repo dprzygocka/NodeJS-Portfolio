@@ -1,0 +1,89 @@
+#skills-section{
+    position: relative;
+    top:10vh;
+    justify-content: end;
+   
+
+}
+div.iconContainer:hover{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.iconsInTheMiddle{
+    justify-content: center;
+}
+
+#small-icons{
+    display: none;
+    margin-left: 5%;
+
+}
+
+.iconContainer{
+    margin: 2%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.iconStyle{
+    max-height: 100%;
+    max-width: 100%; 
+}
+
+.aboutMeText{
+    margin: 20% 0% 10% 20%;
+}
+
+#hideSkillsToShowCarousel{
+    display: block;
+}
+
+#iconsCarousel-point{
+    padding-left:5%;
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+    #skills-section{
+ 
+        top:15vh; 
+    
+    }
+    
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .aboutMeText{
+
+        margin: 15% 0% 5% 20%;
+        
+    } 
+    #small-icons{
+        display: inherit;
+
+    }
+    #hideSkillsToShowCarousel{
+        display: none;
+    }
+    
+
+}
+@media only screen and (max-width: 768px) {
+
+    .aboutMeText{
+
+        margin: 15% 0% 10% 20%;
+        
+    } 
+    
+
+}
+
+

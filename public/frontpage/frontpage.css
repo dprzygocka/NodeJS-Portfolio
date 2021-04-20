@@ -1,0 +1,120 @@
+
+/* first div content frontpage */
+.main-content-front {
+    background-image: url("../global/background.png");
+}
+
+.homeText{
+    margin: 30% 0% 10% 20%;
+    
+}
+
+
+#myName{
+
+    font-size: 5em;
+    overflow: visible;
+    white-space: nowrap;
+    z-index: 4;
+    position: relative;
+
+}
+
+#color{
+    color: #ffbf70;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1100px) {
+
+    #myName { 
+       font-size: 4em; 
+    }
+
+ 
+ }
+
+ @media only screen and (max-width: 900px) {
+
+    #myName { 
+       font-size: 3em; 
+    }
+    
+ 
+ }
+
+ @media only screen and (max-width: 767px) {
+    #imageSection{
+        display: none;
+        
+        
+    }
+
+    .homeText{
+        margin: 15% 0% 10% 20%;
+        
+    }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    #myName { 
+       font-size: 2.5em; 
+    }
+    .icon{
+        max-width: 20%;
+        max-height: 20%;
+    }
+    
+
+}
+
+.cv-link{
+    color: white;
+    text-decoration: none !important;
+}
+
+button.btn {
+    border: white 1px solid;
+    color: white;
+    margin-top: 10%;
+    border-radius: 0px;
+    display: block;
+}
+
+button.btn:hover{
+    border: black 1px solid;
+    color: black;
+    
+}
+
+.homeIcons{
+    margin: 20% 0% 10% 20%;
+}
+
+.icon{
+    max-width: 10%;
+    max-height: 10%;
+}
+
+.linkIcon{
+    margin-top: 25%;
+    margin-right: 10%;
+}
+
+/* second div content */
+#entryImage {
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    
+    
+}
+
+#imageSection{
+
+    padding-left: 0% !important;
+    
+}
