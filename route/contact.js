@@ -31,9 +31,9 @@ async function main(body){
 }
 
 
-router.post("/api/contact", (req, res) => {  //have to try to do it with fetch!!!
+router.post("/api/contact", (req, res) => {  //data from form is sent by fetch in contactpage.js
 
- 
+
   main(req.body).catch(console.error)
   
   res.redirect("/contact");
