@@ -1,6 +1,12 @@
 
 /* navigation */
 
+.activeNav{
+    box-shadow: 0 0 5px rgb(210, 102, 15);
+
+    border: 1px solid #F0852D;
+}
+
 .navbar-dark .navbar-toggler{
     border-color: rgb(255, 255, 255) !important
 }

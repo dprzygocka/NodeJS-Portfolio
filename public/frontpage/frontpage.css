@@ -43,7 +43,7 @@
  
  }
 
- @media only screen and (max-width: 767px) {
+ @media only screen and (max-width: 768px) {
     #imageSection{
         display: none;
         
@@ -53,6 +53,10 @@
     .homeText{
         margin: 15% 0% 10% 20%;
         
+    }
+    
+    .homeIcons{
+        margin-top: 40%;
     }
 
 }
@@ -67,6 +71,7 @@
         max-width: 20%;
         max-height: 20%;
     }
+    
     
 
 }

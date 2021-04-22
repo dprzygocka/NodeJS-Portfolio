@@ -2,6 +2,10 @@ const express = require("express");
 const app = express();
 const fetch = require("node-fetch");
 const fs = require("fs")
+const formData = require('form-data');
+
+
+
 app.use(express.json()); //by default express doesnt parse the body of http requests
 app.use(express.static('public')); //set to send more than just html but also css, js, img
 app.use(express.urlencoded({ extended: true }))//reads whole json from form name = key 
@@ -37,8 +41,8 @@ app.get('/contact', (req,res) => {
         res.send(global + contact + nav + footer)
     })
 
-const projects = fs.readFileSync(__dirname + "/public/projects/projects.html",  {encoding:'utf8', flag:'r'});     
-app.get('/projects', (req,res) => {
+const projects = fs.readFileSync(__dirname + "/public/myProjects/myProjects.html",  {encoding:'utf8', flag:'r'});     
+app.get('/projects', (req,res) => { //there is trailing slah here, why it appeared???
     //__dirname return path to server
         res.send(global + projects + nav + footer)
     })

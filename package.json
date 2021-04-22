@@ -24,8 +24,11 @@
   "homepage": "https://github.com/dprzygocka/Kea_DAT_Node_2021_SPRING2#readme",
   "dependencies": {
     "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
     "encoding": "^0.1.13",
     "express": "^4.17.1",
+    "form-data": "^4.0.0",
+    "formdata-node": "^3.1.1",
     "node-fetch": "^2.6.1",
     "nodemailer": "^6.5.0"
   }
