@@ -1,5 +1,5 @@
 #main-content {
-    height: 80vh;
+    height: 90vh;
     margin: 5% 10% 2% 10%;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
     color: white;
@@ -16,7 +16,7 @@ html body {
 @media only screen and (max-width: 1100px) {
 
     #main-content {
-        height: 80vh;
+        height: 90vh;
 
     }
  
