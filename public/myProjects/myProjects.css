@@ -36,7 +36,7 @@ div.github-link a:hover{
 }
 .small-size{
     display: none;
-    padding-right: 0% ;
+    padding-right: 0% i !important;
 }
 
 .big-size{

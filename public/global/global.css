@@ -6,6 +6,9 @@
     border-radius: 25px;
 
 }
+.col-10{
+    padding-right: 0% !important;
+}
 
 html body {
     background-color: #F0852D;

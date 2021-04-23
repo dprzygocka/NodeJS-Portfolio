@@ -3,7 +3,7 @@ const router = require("express").Router();
 const projects = [
     {
         title: "NodeJS Website",
-        descripton: "First mandatory exercise at NodeJS course at KEA. The website stores information learned during the course plus additional knwoledge from website w3school.com.",
+        descripton: "The website stores information learned during the course plus additional knwoledge from website w3school.com.",
         technology: "NodeJS with express, JS, jQuery, CSS, HTML, Bootstar, Visual Studio Code, Firefox inspector",
         github: "https://github.com/dprzygocka/NodeJS-Course",
         image: "../global/NodeJSCourse.png",
