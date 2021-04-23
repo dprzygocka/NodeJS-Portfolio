@@ -5,7 +5,7 @@
             const myform = document.getElementById("contactPageForm");
   
 
-            const formEvent = form.addEventListener("submit", (event) => { //adds event listner on submit
+            const formEvent = myform.addEventListener("submit", (event) => { //adds event listner on submit
                 
                 event.preventDefault(); //method stops the default action of an element from happening. 
                 //stop forms from automatically submitting when the submit button is clicked, 
@@ -15,7 +15,7 @@
 
                 const form = new FormData(myform); //construct a set of key/value pairs representing form fields and their values,
 
-                fetch("/api/contact", {method: POST, body: form}).then((response) => { return response.json()}); //fetch url def were the data will be sent, the fetch sends data from form to /api/contact
+                fetch("/api/contact", {method: 'POST', body: form}).then((response) => { return response.json()}); //fetch url def were the data will be sent, the fetch sends data from form to /api/contact
    
 
             });
