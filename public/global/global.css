@@ -24,3 +24,13 @@ html body {
     }
  
  }
+
+ @media only screen and (max-width: 576px) {
+
+    #main-content {
+        overflow-x: hidden;
+        overflow-y: scroll;
+
+    }
+ 
+ }
