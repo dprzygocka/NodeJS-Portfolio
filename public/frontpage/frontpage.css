@@ -43,7 +43,7 @@
  
  }
 
- @media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 767px) {
     #imageSection{
         display: none;
         
@@ -51,7 +51,7 @@
     }
 
     .homeText{
-        margin: 15% 0% 10% 20%;
+        margin: 15% 0% 10% 15%;
         
     }
     
