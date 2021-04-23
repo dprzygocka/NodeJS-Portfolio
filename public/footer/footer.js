@@ -1,2 +1,2 @@
 const para = document.getElementById("myFooter")
-para.innerText = "© Copyright " + new Date().getFullYear();
+para.innerText = "Dagmara Przygocka © Copyright " + new Date().getFullYear();
