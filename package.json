@@ -30,11 +30,11 @@
     "express": "^4.17.1",
     "form-data": "^4.0.0",
     "formdata-node": "^3.1.1",
+    "multiparty": "^4.2.2",
     "node-fetch": "^2.6.1",
     "nodemailer": "^6.5.0"
   },
   "engines": {
     "node": "14.15.4"
   }
-
 }
